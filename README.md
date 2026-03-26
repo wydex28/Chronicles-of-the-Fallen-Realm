@@ -15,7 +15,11 @@
   <img src="https://img.shields.io/badge/Visuales-Ultra_RPG-9C27B0?style=for-the-badge&logo=spectrum&logoColor=white" alt="Visuales" />
   <img src="https://img.shields.io/badge/Dificultad-Souls--Like-212121?style=for-the-badge&logo=target&logoColor=white" alt="Dificultad" />
   <img src="https://img.shields.io/badge/Idioma-Español-F0AD4E?style=for-the-badge&logo=googletranslate&logoColor=white" alt="Idioma" />
-</p>
+</p><br>
+<a href="https://williamache.github.io/minecraft-curseforge/">
+  <img src="https://img.shields.io/badge/🌐_Sitio_Web_Oficial-Chronicles_of_the_Fallen_Realm-0a0a0a?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=CF9E51" alt="Landing Page" />
+</a>
+<br><br>
 
 [Instalación](#-guía-de-instalación) • [Características](#-características-y-mecánicas) • [Requisitos](#-requisitos-del-sistema) • [Creadores](#-el-concilio-de-creadores)
 
