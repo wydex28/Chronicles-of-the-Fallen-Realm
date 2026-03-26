@@ -1,132 +1,159 @@
+<div align="center">
+
+# ⚔️ Chronicles of the Fallen Realm 🛡️
+
+*Forja tu leyenda en un mundo fragmentado.*
+
 <p align="center">
-  <img src="https://img.shields.io/badge/Minecraft-1.21.1-67AD5B?style=for-the-badge&logo=minecraft&logoColor=white" />
-  <img src="https://img.shields.io/badge/NeoForge-21.1.221-CF9E51?style=for-the-badge&logo=neoforge&logoColor=white" />
-  <img src="https://img.shields.io/badge/Estado-Alpha-FF4136?style=for-the-badge&logo=codeproject&logoColor=white" />
+  <img src="https://img.shields.io/badge/Minecraft-1.21.1-67AD5B?style=for-the-badge&logo=minecraft&logoColor=white" alt="Minecraft" />
+  <img src="https://img.shields.io/badge/NeoForge-21.1.221-CF9E51?style=for-the-badge&logo=neoforge&logoColor=white" alt="NeoForge" />
+  <img src="https://img.shields.io/badge/Estado-Alpha-FF4136?style=for-the-badge&logo=codeproject&logoColor=white" alt="Estado" />
   <br>
-  <img src="https://img.shields.io/badge/Versión-2.1.0.1.1-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Plataforma-CurseForge-F16436?style=for-the-badge&logo=curseforge&logoColor=white" />
-  <img src="https://img.shields.io/badge/Visuales-Ultra_RPG-9C27B0?style=for-the-badge&logo=spectrum&logoColor=white" />
+  <img src="https://img.shields.io/badge/Versión-2.1.0.1.1-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Versión" />
+  <img src="https://img.shields.io/badge/Plataforma-CurseForge-F16436?style=for-the-badge&logo=curseforge&logoColor=white" alt="Plataforma" />
   <br>
-  <img src="https://img.shields.io/badge/Dificultad-Souls--Like-212121?style=for-the-badge&logo=target&logoColor=white" />
-  <img src="https://img.shields.io/badge/Idioma-Español-F0AD4E?style=for-the-badge&logo=googletranslate&logoColor=white" />
-  <img src="https://img.shields.io/badge/Licencia-MIT-007ACC?style=for-the-badge&logo=opensourceinitiative&logoColor=white" />
+  <img src="https://img.shields.io/badge/Visuales-Ultra_RPG-9C27B0?style=for-the-badge&logo=spectrum&logoColor=white" alt="Visuales" />
+  <img src="https://img.shields.io/badge/Dificultad-Souls--Like-212121?style=for-the-badge&logo=target&logoColor=white" alt="Dificultad" />
+  <img src="https://img.shields.io/badge/Idioma-Español-F0AD4E?style=for-the-badge&logo=googletranslate&logoColor=white" alt="Idioma" />
 </p>
 
-# <p align="center">⚔️ Chronicles of the Fallen Realm 🛡️</p>
+[Instalación](#-guía-de-instalación) • [Características](#-características-y-mecánicas) • [Requisitos](#-requisitos-del-sistema) • [Creadores](#-el-concilio-de-creadores)
 
-Bienvenido, viajero. Estás ante una instancia de **CurseForge** diseñada para transformar Minecraft en una experiencia RPG inmersiva, con combates desafiantes, progresión profunda y una atmósfera visual inigualable.
-
----
-
-## 📜 Historia de la Instancia
-En un mundo fragmentado por la magia antigua, los reinos han caído bajo la sombra. Tu misión no es solo sobrevivir, sino reconstruir, explorar mazmorras olvidadas y dominar las artes de la guerra, la tecnología antigua y la magia elemental.
+</div>
 
 ---
 
-## 🚀 Características Principales
+> *"En un mundo fragmentado por la magia antigua, los reinos han caído bajo la sombra. Tu misión no es solo sobrevivir, sino reconstruir, explorar mazmorras olvidadas y dominar las artes de la guerra, la tecnología antigua y la magia elemental."*
 
-* **🛡️ Combate Evolucionado:** Sistema basado en stamina, esquives y ataques críticos.
-* **🗺️ Exploración Infinita:** Biomas épicos y estructuras masivas generadas proceduralmente.
-* **🎭 Sistema de Clases:** Guerrero, Mago o Pícaro con habilidades y árboles de progresión.
-* **🐉 Bestiario Expandido:** Jefes finales con mecánicas de combate avanzadas.
-* **🏰 Gestión de Colonias:** Crea y protege tu propio reino con NPCs inteligentes.
+Bienvenido, viajero. Estás ante un modpack diseñado para transformar Minecraft en una experiencia RPG inmersiva de fantasía oscura, con combates desafiantes, progresión profunda y una atmósfera visual inigualable.
 
 ---
 
-## 🛠️ Forjas y Engranajes (Mods)
+## 🚀 Características y Mecánicas
 
-Este pack cuenta con una ingeniería de mods seleccionada para ofrecer estabilidad y profundidad:
+Experimenta Minecraft bajo una nueva luz. Cada elemento ha sido modificado para ofrecer una aventura épica:
 
-### ✨ Mods Destacados
-* **TerraFirmaCraft:** Supervivencia realista que redefine la experiencia base.
-* **L_Ender 's Cataclysm:** Encuentros con jefes finales de nivel RPG.
-* **Cobblemon:** Criaturas coleccionables integradas perfectamente al mundo.
-* **MineColonies:** Gestión avanzada de ciudades y ciudadanos.
-* **Apotheosis:** Progresión profunda de habilidades y encantamientos.
-
-> 📚 **¿Buscas la lista completa?**
-> Para consultar el listado técnico de los más de 180 mods instalados, sus versiones y dependencias, revisa nuestro archivo de manifiesto:
-> [👉 Ver .json de la instancia](./modlist.html)
+* **🛡️ Combate Souls-Like:** Sistema basado en *stamina*, esquives, animaciones personalizadas y ataques críticos.
+* **🗺️ Exploración Infinita:** Biomas sobrecogedores, ruinas antiguas y estructuras masivas generadas proceduralmente.
+* **🎭 Sistema de Clases y Progresión:** Define tu estilo (Guerrero, Mago o Pícaro) mediante árboles de habilidades exhaustivos.
+* **🐉 Bestiario Despiadado:** Enfréntate a jefes finales con mecánicas de combate y patrones complejos.
+* **🏰 Gestión de Reinos:** Funda, construye y protege tu propia colonia con NPCs inteligentes que trabajarán y lucharán por ti.
 
 ---
 
 ## 🌌 Atmósfera Visual (Shaders & Recursos)
 
-Para lograr la inmersión total de un RPG de fantasía oscura, incluimos una selección curada de motores visuales:
+Para sumergirte en la verdadera fantasía oscura, este modpack cuenta con una cuidadosa selección gráfica:
 
 ### 💡 Shaders Incluidos
-| Shader / Motor Visual | Estilo | Versión Incluida |
+Ajusta la atmósfera según tus preferencias y capacidades:
+
+| Shader / Motor Visual | Estilo / Ambiente | Rendimiento Objetivo |
 | :--- | :--- | :---: |
-| **§l§fAstral§dCore** | ✨ Místico / Dimensión | Especial |
-| **Luminara Shader - Rebuilt** | 🌤️ Realismo Épico | Rebuilt |
-| **SI Spectre** | 👻 Rendimiento | v1.1.0 |
-| **Hysteria Shaders** | 🌑 Atmosférico | v1.2.1 |
-| **Insanity Shader** | 🎃 Terror / Oscuro | v1.650 |
-| **Spooklementary** | 🕯️ Gótico / Medieval | v2.0.4 |
+| **§l§fAstral§dCore** | ✨ Místico / Dimensión | Equilibrado |
+| **Luminara Shader** | 🌤️ Realismo Épico | Alto / Ultra |
+| **SI Spectre** | 👻 Máximo Rendimiento | Bajo / Medio |
+| **Hysteria Shaders** | 🌑 Atmosférico | Equilibrado |
+| **Insanity Shader** | 🎃 Terror / Oscuro | Equilibrado |
+| **Spooklementary** | 🕯️ Gótico / Medieval | Medio / Alto |
 
-### 🎨 Resource Packs
-* **Custom RPG Textures:** Rediseño completo de armas y armaduras estilo Souls.
-* **Immersive Interface:** Interfaz medieval limpia para una mejor lectura del combate.
-* **RPG Environment:** Texturas ambientales optimizadas para Shaders.
-
----
-
-## 🌍 Mundos y Reinos (Worlds)
-* **The Fallen Kingdom:** Mapa de inicio con estructuras base y misiones iniciales.
-* **Procedural Dungeons:** Mundos optimizados para que cada partida sea única.
+### 🎨 Packs de Recursos
+* ⚔️ **Custom RPG Textures:** Rediseño completo de armas y armaduras al estilo *Souls*.
+* 📜 **Immersive Interface:** HUD y menús medievales limpios para una experiencia sin distracciones.
+* 🌲 **RPG Environment:** Texturas del entorno optimizadas y paletas de colores inmersivas.
 
 ---
 
-## 🛠️ Requisitos del Sistema (Recomendados)
+## 🛠️ Forjas y Engranajes (Mods)
 
-| Componente | Especificación Mínima | Recomendado |
+Con base en una arquitectura de más de 180 mods seleccionados meticulosamente para garantizar compatibilidad y rendimiento.
+
+<details>
+<summary><b>✨ Haz clic para ver los Mods Destacados</b></summary>
+<br>
+
+- **TerraFirmaCraft**: Supervivencia extremadamente realista que redefine completamente el inicio del juego.
+- **L_Ender 's Cataclysm**: Jefes finales intimidantes con animaciones y mecánicas nunca vistas.
+- **Cobblemon**: Un toque único con criaturas integradas de forma orgánica al ecosistema.
+- **MineColonies**: Sistema avanzado para crear ciudades enteras y dirigir a tus ciudadanos.
+- **Apotheosis**: Expansión masiva al sistema de encantamientos y progresión de equipamiento.
+
+</details>
+
+<br>
+
+> 📚 **¿Buscas el manifiesto completo?**
+> Para consultar el listado técnico completo, sus versiones y dependencias:
+> **[👉 Ver el archivo manifest de la instancia](./modlist.html)**
+
+---
+
+## 🌍 Mundos y Reinos
+
+* 🏰 **The Fallen Kingdom:** Mapa de inicio con estructuras preconstruidas y misiones introductorias.
+* 🎲 **Procedural Dungeons:** Dimensiones e instancias optimizadas para que cada expedición sea única y mortal.
+
+---
+
+## 📦 Guía de Instalación
+
+Sigue estos pasos para comenzar tu aventura en el reino caído:
+
+1. ⬇️ Descarga el archivo `.zip` de la última **[Release](../../releases)**.
+2. 🔶 Abre tu cliente de **CurseForge App**.
+3. ⚙️ Haz clic en `Create Custom Profile` en la esquina superior derecha, y selecciona `Import`.
+4. 📁 Selecciona el archivo `.zip` que acabas de descargar. Deja que la forja haga su trabajo.
+5. ⚠️ **IMPORTANTE:** Revisa el archivo `MODS_MANUALES.txt` incluido, ya que algunos mods pesados (+100MB) requieren descarga manual para respetar sus licencias.
+6. ⚔️ ¡Inicia el juego y abraza tu destino!
+
+---
+
+## 💻 Requisitos del Sistema
+
+Para disfrutar de la experiencia visual y mecánica completa sin interrupciones:
+
+| Componente | 🟢 Especificación Mínima | 🟣 Recomendado (Ultra) |
 | :--- | :--- | :--- |
-| **Memoria RAM** | 6 GB | 8-10 GB |
-| **Procesador** | Quad-core 3.0 GHz | Hexa-core + |
-| **Tarjeta Gráfica** | GTX 1050 / RX 560 | RTX 2060 o superior |
-| **Java** | Java 21 | Java 21 (Optimized) |
+| **Memoria RAM** | 6 GB asignados | 8-10 GB asignados |
+| **Procesador** | Quad-core (Ej. i5 8va gen / Ryzen 3) | Hexa-core o superior |
+| **Gráficos** | GTX 1050 / RX 560 o similar | RTX 2060 / RX 6600 o sup. |
+| **Java** | Java 21 | Java 21 (Optimized / GraalVM) |
 
 ---
 
-## 📦 Instalación
+## 👑 El Concilio de Creadores
 
-1.  Descarga el archivo `.zip` de la última [Release](../../releases).
-2.  Abre tu **CurseForge App**.
-3.  Haz clic en `Create Custom Profile` -> `Import`.
-4.  Selecciona el archivo descargado e inicia la aventura.
-5.  **⚠️ IMPORTANTE:** Revisa el archivo `MODS_MANUALES.txt` para los archivos pesados (+100MB).
+Este reino fue forjado y mantenido por:
 
----
-
-## 👑 El Concilio de Creadores (Equipo)
-
-* **[WYDEX](https://github.com/URL_DE_WYDEX)** — 🌑 **Gran Arquitecto & Maestro Visual**
-    * *Líder del proyecto y guardián de la estética. Responsable de la atmósfera mística y la dirección artística.*
-* **[LURUH](https://github.com/URL_DE_LURUH)** — ⚙️ **Ingeniero de Forjas & Compatibilidad**
-    * *Maestro del código. Encargado de la estabilidad, compatibilidad de mods y balance técnico de la instancia.*
+| 🌑 WYDEX | ⚙️ LURUH |
+| :---: | :---: |
+| **Gran Arquitecto & Maestro Visual** | **Ingeniero de Forjas & Compatibilidad** |
+| Líder del proyecto y guardián de la estética.<br>Responsable de la atmósfera mística. | Maestro del código y del balance.<br>Encargado de la estabilidad general. |
+| [@WYDEX](https://github.com/URL_DE_WYDEX) | [@LURUH](https://github.com/URL_DE_LURUH) |
 
 ---
 
-## 🔢 Lógica de Versiones (Protocolo Chronicles)
+## 🔢 Protocolo Chronicles (Versionado)
 
-Manejamos un sistema de 5 dígitos para un control total. Versión actual: **2.1.0.1.1**
+Manejamos un sistema estricto de 5 dígitos (Actual: **`2.1.0.1.1`**) para un control absoluto sobre el desarrollo:
 
-| Posición | Componente | Descripción |
-| :---: | :--- | :--- |
-| **1º** | **Mods** | Cambios en mecánicas base o lista de mods. |
-| **2º** | **Data Packs** | Actualizaciones en lógica, misiones o loot. |
-| **3º** | **Resource Packs** | Cambios en texturas y modelos 3D. |
-| **4º** | **Shaders** | Ajustes en iluminación y motores visuales. |
-| **5º** | **Worlds** | Actualizaciones de mapas y estructuras. |
+* **[1] Mods:** Cambios en mecánicas base o lista principal de mods.
+* **[2] Data Packs:** Actualizaciones en la lógica interna, misiones o tablas de loot.
+* **[3] Resource Packs:** Modificaciones en texturas, interfaz o modelos 3D.
+* **[4] Shaders:** Ajustes en iluminación, sombras y motores visuales.
+* **[5] Worlds:** Actualizaciones de mapas, semillas y generación de estructuras.
 
 ---
 
-## 🤝 Contribuciones y Soporte
+## 🤝 Soporte y Contribuciones
 
-Si encuentras algún error o tienes una sugerencia de mod para mejorar la experiencia RPG, siéntete libre de abrir un **Issue** o enviar un **Pull Request**.
+¿Has encontrado un error en las ruinas? ¿Tienes una idea para mejorar la forja? 
+Siéntete libre de abrir un **[Issue](../../issues)** o enviar un **[Pull Request](../../pulls)**. Toda ayuda para purgar la oscuridad es bienvenida.
 
----
+<br>
 
-<p align="center">
-  Hecho con ❤️ por el equipo de Chronicles.
-</p>
+<div align="center">
+  <img src="https://img.shields.io/badge/Hecho_con-❤️_por_el_equipo_de_Chronicles-black?style=for-the-badge" alt="Made with love" />
+  <br><br>
+  <i>"Que tus críticos sean altos y tus esquives precisos."</i>
+</div>
