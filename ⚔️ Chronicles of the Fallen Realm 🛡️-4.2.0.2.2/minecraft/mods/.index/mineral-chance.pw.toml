@@ -1,0 +1,21 @@
+filename = 'mineralchance-1.21.1-3.8.jar'
+name = 'Mineral Chance'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Fabric/Forge/Neo] 1.21.1-3.8 | Mineral Chance'
+
+[download]
+hash = '3146a9609b3b89b2092e3ef4432e3657a6400df1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6185567
+project-id = 412956
+
+[[x-prismlauncher-dependencies]]
+addonId = '342584'
+type = 'REQUIRED'

@@ -1,0 +1,25 @@
+filename = 'surveyor-1.2.1+1.21.jar'
+name = 'Surveyor Map Framework'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'surveyor-1.2.1+1.21.jar'
+
+[download]
+hash = '7e01b1de1b0346a433a819b8cfe9a77b6a9fc2ed'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7516207
+project-id = 1391592
+
+[[x-prismlauncher-dependencies]]
+addonId = '1402884'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '306612'
+type = 'REQUIRED'

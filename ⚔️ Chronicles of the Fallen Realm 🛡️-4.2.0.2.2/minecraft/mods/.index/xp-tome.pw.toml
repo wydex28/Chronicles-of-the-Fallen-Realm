@@ -1,0 +1,18 @@
+filename = 'xptome-1.21.1-2.4.jar'
+name = 'XP Tome'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'xptome-1.21.1-2.4.jar'
+
+[download]
+hash = 'd2fd4dca74cbfc9933f6834427b6f2f6f59d0a6f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5842036
+project-id = 344787

@@ -1,0 +1,18 @@
+filename = 'rpg_companions_tiny_dragons-0.0.5-neoforge-1.21.1.jar'
+name = 'Tiny Dragons'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'rpg_companions_tiny_dragons-0.0.5-neoforge-1.21.1.jar'
+
+[download]
+hash = 'd1a6b4037ce1f953c8c7f8ef33ddcbb6d319b078'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6219375
+project-id = 1169945

@@ -1,0 +1,13 @@
+config/connector.json
+config/fml.toml
+crash-reports/crash-2026-03-27_01.07.03-fml.txt
+crash-reports/crash-2026-03-27_01.07.58-fml.txt
+downloads/log.json
+imgui.ini
+logs/2026-03-27-1.log.gz
+logs/debug-1.log.gz
+logs/debug.log
+logs/latest.log
+logs/stdout-logs.txt
+logs/telemetry/20260327-1.json.gz
+logs/telemetry/20260327-2.json

@@ -1,0 +1,18 @@
+filename = 'Paraglider-neoforge-21.1.5.jar'
+name = 'Paragliders'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Paraglider-neoforge-21.1.5'
+
+[download]
+hash = '39043f24e897fade07a138bb8d60bfe08d8103b1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7795089
+project-id = 289240

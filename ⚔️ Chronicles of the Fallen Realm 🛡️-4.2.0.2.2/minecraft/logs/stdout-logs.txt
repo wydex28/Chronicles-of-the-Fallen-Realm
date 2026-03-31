@@ -1,0 +1,2030 @@
+[STDOUT]   <log4j:Event logger="cpw.mods.modlauncher.Launcher" timestamp="1774588056416" level="INFO" thread="main">
+    <log4j:Message><![CDATA[ModLauncher running: args [--username, Danoskyx, --version, neoforge-21.1.221, --gameDir, C:\Users\willi\curseforge\minecraft\Instances\Chronicles_, --assetsDir, C:\Users\willi\curseforge\minecraft\Install\assets, --assetIndex, 17, --uuid, 323f946f19f64b67a7bd243e3382edf7, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, 2bde37-266d92-105330-9a956f-de2cfa, --xuid, 2535411024320696, --userType, msa, --versionType, release, --width, 1024, --height, 768, --quickPlayPath, C:\Users\willi\curseforge\minecraft\Quickplay\10a58921-94c0-4a11-a133-1dbc477d63d6.json, , , , --fml.neoForgeVersion, 21.1.221, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="cpw.mods.modlauncher.Launcher" timestamp="1774588056421" level="INFO" thread="main">
+    <log4j:Message><![CDATA[JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.10+7-LTS]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="cpw.mods.modlauncher.Launcher" timestamp="1774588056422" level="INFO" thread="main">
+    <log4j:Message><![CDATA[ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.10 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.ImmediateWindowHandler" timestamp="1774588057539" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Loading ImmediateWindowProvider fmlearlywindow]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="EARLYDISPLAY" timestamp="1774588057718" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Trying GL version 4.6]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="EARLYDISPLAY" timestamp="1774588058012" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Requested GL version 4.6 got version 4.6]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1774588058208" level="INFO" thread="main">
+    <log4j:Message><![CDATA[SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/willi/curseforge/minecraft/Install/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23121!/ Service=ModLauncher Env=CLIENT]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="EARLYDISPLAY" timestamp="1774588058385" level="INFO" thread="pool-2-thread-1">
+    <log4j:Message><![CDATA[GL info: NVIDIA GeForce GTX 1080/PCIe/SSE2 GL version 4.6.0 NVIDIA 582.28, NVIDIA Corporation]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058709" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "client-1.21.1-20240808.144430-srg.jar" [locator: production client provider +net.neoforged:neoforge:21.1.221:client]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058743" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "neoforge-21.1.221-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[C:\Users\willi\curseforge\minecraft\Install\libraries\net\neoforged\neoforge\21.1.221\neoforge-21.1.221-universal.jar]], reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058746" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "~nonexistent" [locator: org.sinytra.connector.locator.ConnectorEarlyLocatorBootstrap@ec2bf82]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058763" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "accessories-neoforge-1.1.0-beta.53+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058771" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "accessorify-2.3.6+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058775" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "addonslib-neoforge-1.21.1-1.10.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058780" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "AdvancementPlaques-1.21.1-neoforge-1.6.8.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058786" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "animal_feeding_trough-1.1.2+1.21-neoforge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058792" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "antique-atlas-3.1.2+1.21.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058799" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "Apotheosis-1.21.1-8.5.2.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058806" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "ApothicAttributes-1.21.1-2.9.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058809" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "ApothicEnchanting-1.21.1-1.5.2.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058814" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "ApothicSpawners-1.21.1-1.3.4.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058821" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "appleskin-neoforge-mc1.21-3.0.8.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058826" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "Aquaculture-1.21.1-2.7.19.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058831" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "archers-neoforge-2.7.0+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058837" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "architectury-13.0.8-neoforge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058842" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "armory-neoforge-1.3.0+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058847" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "arsenal-neoforge-1.4.2+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058853" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "artifacts-neoforge-13.2.0.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058857" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "azurelibarmor-neo-1.21.1-3.1.3.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058862" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "balm-neoforge-1.21.1-21.0.56.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058868" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "betterarcheology-neoforge-1.21.1-1.3.4.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058872" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "bettercombat-neoforge-2.3.2+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058877" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "BetterF3-11.0.3-NeoForge-1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058881" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "blueprint-1.21.1-8.0.8.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058887" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "BOMD-NeoForge-1.21-1.3.2.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058892" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "bookshelf-neoforge-1.21.1-21.1.81.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058895" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "bundle-api-neoforge-1.1.0.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058903" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "carryon-neoforge-1.21.1-2.2.4.4.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058907" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "cataclysmfortresses-1.21.1-NeoForge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058911" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "CerbonsAPI-NeoForge-1.21-1.3.0.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058916" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "chat_heads-0.15.0-neoforge-1.21.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058920" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058924" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "Clumps-neoforge-1.21.1-19.0.0.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058930" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "collective-1.21.1-8.13.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058935" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "combat_roll-neoforge-2.0.6+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058941" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "connectedglass-1.1.14-neoforge-mc1.21.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058945" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "ConnectorExtras-1.12.1+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058950" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "Controlling-neoforge-1.21.1-19.0.5.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058954" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "Corgilib-NeoForge-1.21.1-5.0.0.9.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058959" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "coroutil-neoforge-1.21.0-1.3.9.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058965" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "cristellib-neoforge-1.21.1-3.0.3.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058970" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "critical_strike-neoforge-1.0.4+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058974" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "Cucumber-1.21.1-8.0.15.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058978" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "curios-neoforge-9.5.1+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058983" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "domum-ornamentum-1.0.231-main.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058987" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "doubledoors-1.21.1-7.2.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058990" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "dungeon_difficulty-neoforge-3.6.10+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588058997" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "durabilitytooltip-1.1.6-neoforge-mc1.21.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059003" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "easy_anvil-1.0.0-[crafting table]-neoforge-1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059009" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "EasyMagic-v21.1.4-1.21.1-NeoForge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059013" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "eatinganimation-1.21.0-6.0.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059016" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "enchdesc-neoforge-1.21.1-21.1.9.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059022" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "EnhancedTooltips-1.9.0+neoforge.1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059043" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "epic-fight-21.15.8-mc1.21.1-neoforge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059048" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "FallingTree-1.21.1-1.21.1.11.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059053" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "FarmersDelight-1.21.1-1.2.11.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059059" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "FarmersStructures-1.0.2-1.21.1_neoforge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059064" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "foodeffecttooltips+neoforge-1.21.1-1.4.0.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059070" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059074" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "formations-1.0.4-neoforge-mc1.21.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059078" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "formationsnether-1.0.5-mc1.21+.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059082" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "framework-neoforge-1.21.1-0.13.11.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059088" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fusion-1.2.12-neoforge-mc1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059092" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fzzy_config-0.7.6+1.21+neoforge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059097" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "geckolib-neoforge-1.21.1-4.8.4.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059103" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "ghosts-neoforge-1.21.1-1.3.2.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059107" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "GlitchCore-neoforge-1.21.1-2.1.0.0.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059111" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "gml-6.0.2.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059115" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "goblintraders-neoforge-1.21.1-1.11.2.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059119" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "gravestone-neoforge-1.21.1-1.0.35.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059124" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "guardvillagers-2.4.7-1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059128" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "healingcampfire-1.21.1-6.2.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059133" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "hearthandharvest-1.21.1-1.1.5.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059138" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "Highlighter-1.21-neoforge-1.1.11.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059143" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "Iceberg-1.21.1-neoforge-1.3.2.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059146" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "icon-leading-tooltip-neoforge-1.0.7.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059152" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "InventoryProfilesNext-neoforge-1.21.1-2.2.5.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059158" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "iris-neoforge-1.8.12+mc1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059162" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "Jade-1.21.1-NeoForge-15.10.5.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059167" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "jei-1.21.1-neoforge-19.27.0.336.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059171" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "jewelry-neoforge-2.3.2+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059175" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "justenoughbreeding-neoforge-1.21-1.21.1-1.6.2.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059177" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "JustEnoughProfessions-neoforge-1.21.1-4.0.4.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059182" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "JustEnoughResources-NeoForge-1.21.1-1.6.0.17.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059200" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "kleeslabs-neoforge-1.21.1-21.1.9.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059204" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "knightlib-neoforge-1.21.1-1.3.0.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059208" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "knightquest-neoforge-1.21.1-1.9.0.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059212" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "kotlinforforge-5.11.0-all.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059218" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "L_Ender's Cataclysm 1.21.1-3.24.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059224" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "lazy_utilities-3.3+1.21.1-NeoForge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059229" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "LegendaryTooltips-1.21.1-neoforge-1.5.5.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059233" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "libIPN-neoforge-1.21.1-6.6.3.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059238" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "lionfishapi-2.6.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059248" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "lithium-neoforge-0.15.3+mc1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059253" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "lithostitched-1.6.1-neoforge-1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059256" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "macaws_bridges_delight-1.0.0-neoforge-1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059262" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "macawsroofsbop-neoforge-1.21-1.0.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059266" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "mcqoy-0.4.1+neo-1.21.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059271" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "mcw-bridges-3.1.2-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059277" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "mcw-doors-1.1.5-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059282" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "mcw-furniture-3.4.1-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059286" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "mcw-lights-1.1.5-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059291" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "mcw-mcwfences-1.2.1-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059296" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "mcw-mcwpaths-1.1.1-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059301" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "mcw-mcwstairs-1.0.2-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059306" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "mcw-mcwwindows-2.4.2-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059309" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "mcw-paintings-1.0.5-1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059315" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "mcw-roofs-2.3.2-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059318" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "mcw-trapdoors-1.1.5-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059332" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "mcwabnormals-neoforge-1.21.1-1.5.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059338" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "mcwaurora-neoforge-1.21.1-1.5.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059350" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "mcwbiomesoplenty-neoforge-1.21.1-1.5.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059367" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "mcwbyg-neoforge-1.21.1-1.5.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059373" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "mcwquark-neoforge-1.21.1-1.6.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059392" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "mcwregionsunexplored-neoforge-1.21.1-1.5.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059407" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "minecolonies-1.1.1285-1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059411" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "miningspeedtooltips-neoforge-1.0.0-1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059416" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "modonomicon-1.21.1-neoforge-1.120.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059419" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "MouseTweaks-neoforge-mc1.21-2.26.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059424" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "mowziesmobs-1.21.1-1.8.2.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059427" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "multipiston-1.2.58-1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059432" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "MysticalAgradditions-1.21.1-8.0.13.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059437" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "MysticalAgriculture-1.21.1-8.0.24.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059440" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "netherportalfix-neoforge-1.21.1-21.1.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059444" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "notenoughanimations-neoforge-1.11.3-mc1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059452" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "occultism-1.21.1-neoforge-1.206.0.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059455" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "OctoLib-NEOFORGE-0.6.1+1.21.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059463" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "Oh-The-Biomes-Weve-Gone-NeoForge-2.5.5.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059468" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.2.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059471" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "overpacked-1.1-1.21.1-neoforge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059476" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059480" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "paladins-neoforge-2.7.1+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059486" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "Paraglider-neoforge-21.1.5.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059490" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "particlerain-4.0.0-beta.8+1.21.1-neoforge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059493" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "particular-1.21.1-NeoForge-1.1.7.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059498" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "Patchouli-1.21.1-93-NEOFORGE.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059503" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "Paxi-1.21.1-NeoForge-5.1.3.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059506" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "PickUpNotifier-v21.1.1-1.21.1-NeoForge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059510" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "Placebo-1.21.1-9.9.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059514" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "player-animation-lib-forge-2.0.4+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059520" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "prickle-neoforge-1.21.1-21.1.11.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059523" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "Prism-1.21.1-neoforge-1.0.11.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059527" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "puffish_skills-0.17.3-1.21-neoforge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059530" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "PuzzlesLib-v21.1.39-1.21.1-NeoForge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059539" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "Quark-4.1-475.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059543" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "ranged_weapon_api-neoforge-2.3.3+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059557" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "rechiseled-1.2.4-neoforge-mc1.21.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059564" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "regions-unexplored-0.6+beta3-neoforge-21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059567" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "relics-1.21.1-0.10.7.8.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059573" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "relics-neoforge-1.3.0+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059579" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "repurposed_structures-7.5.18+1.21.1-neoforge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059583" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "resourcefulconfig-neoforge-1.21-3.0.11.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059587" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "resourcefullib-neoforge-1.21-3.0.12.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059591" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "Ribbits-1.21.1-NeoForge-4.1.6.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059596" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "rogues-neoforge-2.7.0+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059599" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "runes-neoforge-1.2.1+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059603" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "Searchables-neoforge-1.21.1-1.0.2.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059607" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "shield_api-neoforge-2.2.0.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059610" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "ShoulderSurfing-NeoForge-1.21.1-4.22.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059614" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "shulkerboxtooltip-neoforge-5.1.9+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059618" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "skill_tree-neoforge-1.4.4+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059622" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "skinlayers3d-neoforge-1.10.2-mc1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059625" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "SmartBrainLib-neoforge-1.21.1-1.16.11.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059629" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "sodium-neoforge-0.6.13+mc1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059650" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "sound-physics-remastered-neoforge-1.21.1-1.4.10.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059654" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "sound-physics-remastered-neoforge-1.21.1-1.5.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059658" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "spawnanimations-v1.11.3-mc1.17-1.21.11-mod.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059664" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "spell_engine-neoforge-1.9.9+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059667" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "spell_power-neoforge-1.4.6+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059671" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "StorageDrawers-neoforge-1.21.1-13.11.4.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059675" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "structure_pool_api-neoforge-1.2.1+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059679" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "structurize-1.0.816-1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059683" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "SubtleEffects-neoforge-1.21.1-1.14.0.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059687" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059690" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "supermartijn642corelib-1.1.21-neoforge-mc1.21.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059694" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "surveyor-1.2.1+1.21.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059699" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "t_and_t-neoforge-fabric-1.13.7+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059703" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "takesapillage-neoforge-1.0.10+mc1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059706" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "tectonic-3.0.19-neoforge-1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059709" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "TerraBlender-neoforge-1.21.1-4.1.0.8.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059730" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "TerraFirmaCraft-NeoForge-1.21.1-4.0.19-beta.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059736" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "The_Undergarden-1.21.1-0.9.5.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059739" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "tooltipoverhaul-neoforge-1.21.1-1.4.3.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059744" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "towntalk-1.2.0.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059747" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "trashslot-neoforge-1.21.1-21.1.6.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059751" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "TravelersTitles-1.21.1-NeoForge-5.1.3.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059759" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "twilightforest-1.21.1-4.8.3345-universal.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059762" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "txnilib-neoforge-1.0.24-1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059765" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "veinmining-neoforge-5.0.0-beta.2+1.21.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059770" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "villagernames-1.21.1-8.2.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059773" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "VisualWorkbench-v21.1.1-1.21.1-NeoForge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059777" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "voicechat-neoforge-1.21.1-2.6.12.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059781" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "watut-neoforge-1.21.0-1.2.7.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059786" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "waystones-neoforge-1.21.1-21.1.29.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059789" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "wizards-neoforge-2.7.1+1.21.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059793" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "xptome-1.21.1-2.4.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059797" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059800" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "YungsApi-1.21.1-NeoForge-5.1.6.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059804" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "YungsBetterCaves-1.21.1-NeoForge-3.1.4.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059808" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059811" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059813" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "YungsBetterEndIsland-1.21.1-NeoForge-3.1.2.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059819" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059823" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059826" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059829" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059834" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059839" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "yungsbettertfc-0.2.0.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059843" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059846" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "YungsBridges-1.21.1-NeoForge-5.1.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059849" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "YungsCaveBiomes-1.21.1-NeoForge-3.1.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059854" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "YungsExtras-1.21.1-NeoForge-5.1.1.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059858" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "YungsMenuTweaks-1.21.1-NeoForge-2.1.2.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588059861" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "Zeta-1.1-39.jar" [locator: {mods folder locator at C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods}, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.jarjar.selection.JarSelector" timestamp="1774588061300" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Attempted to select a dependency jar for JarJar which was passed in as source: library:net.fabricmc.loader. Using Mod File: \~nonexistent]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.jarjar.selection.JarSelector" timestamp="1774588061300" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Attempted to select a dependency jar for JarJar which was passed in as source: bundleapi. Using Mod File: C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods\bundle-api-neoforge-1.1.0.jar]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.jarjar.selection.JarSelector" timestamp="1774588061301" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Attempted to select a dependency jar for JarJar which was passed in as source: shield_api. Using Mod File: C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\mods\shield_api-neoforge-2.2.0.jar]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator" timestamp="1774588061301" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found 121 dependencies adding them to mods collection]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061301" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "kuma-api-neoforge-21.0.7+1.21.jar" [parent: balm-neoforge-1.21.1-21.0.56.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061301" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-renderer-api-v1-3.4.1+9125b6dc19.jar" [parent: forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061301" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "kubejs-bridge-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061301" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-item-api-v1-11.2.0+0c57911319.jar" [parent: forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061301" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "modmenu-bridge-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061301" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-rendering-fluids-v1-3.1.6+a51883b219.jar" [parent: forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061301" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "opensesame-groovy-0.5.13.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061301" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "gml-core-7.0.3.jar" [parent: gml-6.0.2.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061301" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "groovybundler-2.1.7.jar" [parent: gml-core-7.0.3.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061301" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "netty-0.1.4.1.jar" [parent: owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061301" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-convention-tags-v1-2.1.5+7f945d5b19.jar" [parent: forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061301" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "endec-0.1.8.1.jar" [parent: owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061301" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "kotlinx-coroutines-core-jvm-1.10.2.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061302" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-block-view-api-v2-1.0.11+e9036fd419.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061302" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-command-api-v2-2.2.28+36d727be19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061302" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-convention-tags-v2-2.11.1+87e5848019.jar" [parent: forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061302" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-data-attachment-api-v1-1.4.5+26d408aa19.jar" [parent: forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061302" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "tiny-config-3.1.0-neoforge.jar" [parent: critical_strike-neoforge-1.0.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061302" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "rei-bridge-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061302" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "biolith-neoforge-3.0.10.jar" [parent: Quark-4.1-475.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061302" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "kotlin-stdlib-jdk7-2.3.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061302" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-screen-api-v1-2.0.25+4228281319.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061302" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "kotlin-stdlib-jdk8-2.3.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061303" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar" [parent: txnilib-neoforge-1.0.24-1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061303" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-content-registries-v0-8.0.19+5e0d320019.jar" [parent: forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061303" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "kotlinx-serialization-json-jvm-1.9.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061303" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "bytecodecs-1.1.2.jar" [parent: resourcefullib-neoforge-1.21-3.0.12.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061303" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "terrablender-bridge-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061303" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "groovy-json-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061303" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "snakeyaml-2.2.jar" [parent: OctoLib-NEOFORGE-0.6.1+1.21.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061303" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.221-universal.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061303" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "groovy-macro-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061303" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-game-rule-api-v1-1.0.53+36d727be19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061303" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-api-lookup-api-v1-1.6.71+c290471319.jar" [parent: forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061303" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "commonmark-ext-ins-0.27.1.jar" [parent: modonomicon-1.21.1-neoforge-1.120.1.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061303" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "imageio-metadata-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061304" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "jcpp-1.4.14.jar" [parent: iris-neoforge-1.8.12+mc1.21.1.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061304" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "kotlin-stdlib-2.3.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061304" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "cgl-1.21-neoforge-0.5.1.jar" [parent: gml-6.0.2.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061304" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "jackson-annotations-2.18.1.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061304" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "groovy-ginq-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061304" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "tomlkt-jvm-0.3.7.jar" [parent: fzzy_config-0.7.6+1.21+neoforge.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061304" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-entity-events-v1-1.8.0+5ede667619.jar" [parent: forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061304" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "kaleido-config-0.3.3+1.3.2.jar" [parent: mcqoy-0.4.1+neo-1.21.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061304" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "commonmark-0.27.1.jar" [parent: modonomicon-1.21.1-neoforge-1.120.1.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061304" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "common-io-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061304" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-loot-api-v2-3.0.15+a3ee712d19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061304" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-loot-api-v3-1.0.3+333dfad919.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061304" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "TRansition-1.0.13-1.21.1-neoforge-SNAPSHOT.jar" [parent: skinlayers3d-neoforge-1.10.2-mc1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061305" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-rendering-data-attachment-v1-0.3.49+73761d2e19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061305" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "imageio-webp-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061305" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "kotlinx-serialization-core-jvm-1.9.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061305" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-networking-api-v1-4.3.0+30a980d919.jar" [parent: forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061305" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-lifecycle-events-v1-2.6.0+e40d8add19.jar" [parent: forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061305" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "imageio-core-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061305" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "opensesame-compile-0.5.13.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061306" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-key-binding-api-v1-1.0.47+62cc7ce119.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061306" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-client-tags-api-v1-1.1.15+e053909619.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061306" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-transfer-api-v1-5.4.3+a25cb45619.jar" [parent: forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061306" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "groovy-templates-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061306" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "commonmark-ext-gfm-strikethrough-0.27.1.jar" [parent: modonomicon-1.21.1-neoforge-1.120.1.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061306" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found gamelibrary file "mixinconstraints-1.1.0.jar" [parent: accessorify-2.3.6+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061306" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "jankson-0.1.5.1.jar" [parent: owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061306" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-model-loading-api-v1-2.1.0+6e8f52c719.jar" [parent: forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061306" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "net.neoforged.neoforge-coremods-21.1.221.jar" [parent: neoforge-21.1.221-universal.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061306" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "pehkui-bridge-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061306" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-screen-handler-api-v1-1.3.90+8dbc56dd19.jar" [parent: forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061306" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-resource-loader-v0-1.3.1+4ea8954419.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061306" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "TRender-1.0.10-1.21.1-neoforge-SNAPSHOT.jar" [parent: skinlayers3d-neoforge-1.10.2-mc1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061306" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-rendering-v1-5.1.0+1a09bd5a19.jar" [parent: forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061307" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "jackson-core-2.18.1.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061307" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-renderer-indigo-1.7.1+9125b6dc19.jar" [parent: forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061307" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "groovy-contracts-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061307" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "yabn-1.0.3.jar" [parent: resourcefullib-neoforge-1.21-3.0.12.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061307" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "groovy-dateutil-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061307" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "net.caffeinemc.sodium-neoforge-0.6.13+mc1.21.1-service.jar" [parent: sodium-neoforge-0.6.13+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061307" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "kotlinx-coroutines-jdk8-1.10.2.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061307" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "jackson-dataformat-toml-2.18.1.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061307" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "extras-utils-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061307" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "groovy-typecheckers-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061307" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "groovy-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061307" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "energy-bridge-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061307" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "groovy-toml-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061307" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-particles-v1-4.0.2+824f924c19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061308" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "common-image-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061308" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-transitive-access-wideners-v1-6.2.0+6c854b6f19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061308" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "jankson-1.2.3.jar" [parent: EnhancedTooltips-1.9.0+neoforge.1.21.1.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061308" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "gson-0.1.5.1.jar" [parent: owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061308" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-api-base-0.4.42+d1308dedd1.jar" [parent: owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061308" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-blockrenderlayer-v1-1.1.52+c290471319.jar" [parent: forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061308" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "jackson-databind-2.18.1.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061308" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-block-api-v1-1.1.0+b0c22bb819.jar" [parent: forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061308" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "thedarkcolour.kfflang-5.11.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061308" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "spectrelib-neoforge-0.17.2+1.21.jar" [parent: veinmining-neoforge-5.0.0-beta.2+1.21.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061308" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "jei-bridge-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061308" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found gamelibrary file "thedarkcolour.kfflib-5.11.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061308" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-resource-conditions-api-v1-4.3.0+5bdd099819.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061308" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "thedarkcolour.kffmod-5.11.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061309" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "gson-0.2.1.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061309" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "kotlin-reflect-2.3.0.jar" [parent: kotlinforforge-5.11.0-all.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061309" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-item-group-api-v1-4.1.7+e324903319.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061309" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "opensesame-core-0.5.13.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061309" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-gametest-api-v1-2.0.5+29f188ce19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061309" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "groovy-datetime-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061309" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "glsl-transformer-2.0.1.jar" [parent: iris-neoforge-1.8.12+mc1.21.1.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061309" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-biome-api-v1-13.0.31+1e62d33c19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061309" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "groovy-macro-library-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061309" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "json-0.2.1.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061309" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-registry-sync-v0-5.3.1+f9aace1619.jar" [parent: forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061309" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "s.tf-asm-4.8.3345.jar" [parent: twilightforest-1.21.1-4.8.3345-universal.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061309" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-recipe-api-v1-5.0.15+59440bcc19.jar" [parent: forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061310" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-object-builder-api-v1-15.2.1+cc242efd19.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061310" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "groovy-nio-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061310" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-sound-api-v1-1.0.23+10b84f8419.jar" [parent: forgified-fabric-api-0.115.6+2.1.0+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061310" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "groovy-xml-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061310" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-message-api-v1-6.0.14+6a754fce19.jar" [parent: forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061310" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "expandability-neoforge-12.0.0.jar" [parent: artifacts-neoforge-13.2.0.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061310" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "emi-bridge-1.12.1+1.21.1.jar" [parent: ConnectorExtras-1.12.1+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061310" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found library file "common-lang-3.12.0.jar" [parent: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar, locator: jarinjar]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061310" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-data-generation-api-v1-20.2.34+a4c3605619.jar" [parent: forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588061310" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "fabric-events-interaction-v0-0.7.13+86e0887119.jar" [parent: forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="org.sinytra.connector.locator.FabricModsDiscoverer" timestamp="1774588061756" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Fabric mod metadata not found in jar kotlinforforge.all, ignoring]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="org.sinytra.connector.locator.DependencyResolver" timestamp="1774588062445" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Dependency resolution found 3 candidates to load]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588062782" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found gamelibrary file "surveyor-1.2.1+1.21$kaleido-config-0.3.1+1.3.2_mapped_moj_1.21.1.jar" [locator: org.sinytra.connector.locator.ConnectorLocator@4593ff34]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588062782" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "antique-atlas-3.1.2+1.21_mapped_moj_1.21.1.jar" [locator: org.sinytra.connector.locator.ConnectorLocator@4593ff34]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588062783" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "surveyor-1.2.1+1.21_mapped_moj_1.21.1.jar" [locator: org.sinytra.connector.locator.ConnectorLocator@4593ff34]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator" timestamp="1774588062799" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found 2 dependencies adding them to mods collection]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588062799" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found mod file "org.sinytra.connector-2.0.0-beta.14+1.21.1-mod.jar" [parent: , locator: org.sinytra.connector.locator.ConnectorLocator@4593ff34, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+  <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588062799" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Found gamelibrary file "runtime-1.0.0+1.21.1.jar" [parent: , locator: org.sinytra.connector.locator.ConnectorLocator@4593ff34, reader: mod manifest]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1774588062805" level="INFO" thread="main">
+    <log4j:Message><![CDATA[
+     Mod List:
+		Name Version (Mod Id)
+
+		3d-Skin-Layers 1.10.2 (skinlayers3d)
+		Accessories 1.1.0-beta.53+1.21.1 (accessories)
+		Accessorify 2.3.6 (accessorify)
+		Addons Lib 1.21.1-1.10 (addonslib)
+		Advancement Plaques 1.6.8 (advancementplaques)
+		Animal Feeding Trough 1.1.2 (animal_feeding_trough)
+		Antique Atlas 3.1.2_1.21 (antique_atlas)
+		Apotheosis 8.5.2 (apotheosis)
+		Apothic Attributes 2.9.1 (apothic_attributes)
+		Apothic Enchanting 1.5.2 (apothic_enchanting)
+		Apothic Spawners 1.3.4 (apothic_spawners)
+		AppleSkin 3.0.8+mc1.21 (appleskin)
+		Aquaculture 2 2.7.19 (aquaculture)
+		Archers (RPG Series) 2.7.0 (archers)
+		Architectury 13.0.8 (architectury)
+		Armory (RPG Series) 1.3.0 (armory_rpgs)
+		Arsenal (RPG Series) 1.4.2 (arsenal)
+		Artifacts 13.2.0 (artifacts)
+		AzureLib Armor 3.1.3 (azurelibarmor)
+		Balm 21.0.56 (balm)
+		Barebones McQoy 0.4.1+neo-1.21 (mcqoy)
+		Better Archeology 1.21.1-1.3.4 (betterarcheology)
+		Better Combat 2.3.2+1.21.1 (bettercombat)
+		BetterF3 11.0.3 (betterf3)
+		Biolith 3.0.10 (biolith)
+		Blueprint 8.0.8 (blueprint)
+		Bookshelf 21.1.81 (bookshelf)
+		Bosses of Mass Destruction 1.3.2 (bosses_of_mass_destruction)
+		BundleAPI 1.1.0 (bundleapi)
+		Carry On 2.2.4 (carryon)
+		Cataclysm x YUNG's Better Nether Fortresses Compat 1.21.1 (cataclysmfortresses)
+		Cerbons API 1.3.0 (cerbons_api)
+		Chat Heads 0.15.0 (chat_heads)
+		Cloth Config v15 API 15.0.140 (cloth_config)
+		Clumps 19.0.0.1 (clumps)
+		Collective 8.13 (collective)
+		Combat Roll 2.0.6+1.21.1 (combat_roll)
+		CommonGroovyLibrary 0.5.1 (commongroovylibrary)
+		Connected Glass 1.1.14 (connectedglass)
+		Connector Extras 1.12.1+1.21.1 (connectorextras)
+		Connector Extras EMI Bridge 1.12.1+1.21.1 (connectorextras_emi_bridge)
+		Connector Extras Energy Bridge 1.12.1+1.21.1 (connectorextras_energy_bridge)
+		Connector Extras JEI Bridge 1.12.1+1.21.1 (connectorextras_jei_bridge)
+		Connector Extras KubeJS Bridge 1.12.1+1.21.1 (connectorextras_kubejs_bridge)
+		Connector Extras ModMenu Bridge 1.12.1+1.21.1 (connectorextras_modmenu_bridge)
+		Connector Extras Pehkui Bridge 1.12.1+1.21.1 (connectorextras_pehkui_bridge)
+		Connector Extras REI Bridge 1.12.1+1.21.1 (connectorextras_rei_bridge)
+		Connector Extras Terrablender Bridge 1.12.1+1.21.1 (connectorextras_terrablender_bridge)
+		Controlling 19.0.5 (controlling)
+		CorgiLib 5.0.0.9 (corgilib)
+		CoroUtil 1.21.0-1.3.9 (coroutil)
+		Cristel Lib 3.0.3 (cristellib)
+		Critical Strike 1.0.4+1.21.1 (critical_strike)
+		Cucumber Library 8.0.15 (cucumber)
+		Curios API 9.5.1+1.21.1 (curios)
+		Domum Ornamentum 1.0.231 (domum_ornamentum)
+		Double Doors 7.2 (doubledoors)
+		Dungeon Difficulty 3.6.10+1.21.1 (dungeon_difficulty)
+		Durability Tooltip 1.1.6 (durabilitytooltip)
+		easy anvil  <[crafting table]> 1.0.0 (easy_anvil)
+		Easy Magic 21.1.4 (easymagic)
+		Eating Animation 6.0.1 (eatinganimation)
+		EnchantmentDescriptions 21.1.9 (enchdesc)
+		EnhancedTooltips 1.9.0+neoforge.1.21.1 (enhancedtooltips)
+		Epic Fight 21.15.8 (epicfight)
+		ExpandAbility 12.0.0 (expandability)
+		FallingTree 1.21.1.11 (fallingtree)
+		Farmer's Delight 1.2.11 (farmersdelight)
+		FarmersStructures 1.0.2 (farmers_structures)
+		Food Effect Tooltips 1.4.0 (foodeffecttooltips)
+		Forgified Fabric API 0.116.7+2.2.4+1.21.1 (fabric_api)
+		Forgified Fabric API Base 0.4.42+d1308dedd1 (fabric_api_base)
+		Forgified Fabric API Lookup API (v1) 1.6.71+c290471319 (fabric_api_lookup_api_v1)
+		Forgified Fabric Biome API (v1) 13.0.31+1e62d33c19 (fabric_biome_api_v1)
+		Forgified Fabric Block API (v1) 1.1.0+b0c22bb819 (fabric_block_api_v1)
+		Forgified Fabric BlockRenderLayer Registration (v1) 1.1.52+c290471319 (fabric_blockrenderlayer_v1)
+		Forgified Fabric BlockView API (v2) 1.0.11+e9036fd419 (fabric_block_view_api_v2)
+		Forgified Fabric Client Tags 1.1.15+e053909619 (fabric_client_tags_api_v1)
+		Forgified Fabric Command API (v2) 2.2.28+36d727be19 (fabric_command_api_v2)
+		Forgified Fabric Content Registries (v0) 8.0.19+5e0d320019 (fabric_content_registries_v0)
+		Forgified Fabric Convention Tags 2.1.5+7f945d5b19 (fabric_convention_tags_v1)
+		Forgified Fabric Convention Tags (v2) 2.11.1+87e5848019 (fabric_convention_tags_v2)
+		Forgified Fabric Data Attachment API (v1) 1.4.5+26d408aa19 (fabric_data_attachment_api_v1)
+		Forgified Fabric Data Generation API (v1) 20.2.34+a4c3605619 (fabric_data_generation_api_v1)
+		Forgified Fabric Entity Events (v1) 1.8.0+5ede667619 (fabric_entity_events_v1)
+		Forgified Fabric Events Interaction (v0) 0.7.13+86e0887119 (fabric_events_interaction_v0)
+		Forgified Fabric Game Rule API (v1) 1.0.53+36d727be19 (fabric_game_rule_api_v1)
+		Forgified Fabric Game Test API (v1) 2.0.5+29f188ce19 (fabric_gametest_api_v1)
+		Forgified Fabric Item API (v1) 11.2.0+0c57911319 (fabric_item_api_v1)
+		Forgified Fabric Item Group API (v1) 4.1.7+e324903319 (fabric_item_group_api_v1)
+		Forgified Fabric Key Binding API (v1) 1.0.47+62cc7ce119 (fabric_key_binding_api_v1)
+		Forgified Fabric Lifecycle Events (v1) 2.6.0+e40d8add19 (fabric_lifecycle_events_v1)
+		Forgified Fabric Loot API (v2) 3.0.15+a3ee712d19 (fabric_loot_api_v2)
+		Forgified Fabric Loot API (v3) 1.0.3+333dfad919 (fabric_loot_api_v3)
+		Forgified Fabric Message API (v1) 6.0.14+6a754fce19 (fabric_message_api_v1)
+		Forgified Fabric Model Loading API (v1) 2.1.0+6e8f52c719 (fabric_model_loading_api_v1)
+		Forgified Fabric Networking API (v1) 4.3.0+30a980d919 (fabric_networking_api_v1)
+		Forgified Fabric Object Builder API (v1) 15.2.1+cc242efd19 (fabric_object_builder_api_v1)
+		Forgified Fabric Particles (v1) 4.0.2+824f924c19 (fabric_particles_v1)
+		Forgified Fabric Recipe API (v1) 5.0.15+59440bcc19 (fabric_recipe_api_v1)
+		Forgified Fabric Registry Sync (v0) 5.3.1+f9aace1619 (fabric_registry_sync_v0)
+		Forgified Fabric Renderer - Indigo 1.7.1+9125b6dc19 (fabric_renderer_indigo)
+		Forgified Fabric Renderer API (v1) 3.4.1+9125b6dc19 (fabric_renderer_api_v1)
+		Forgified Fabric Rendering (v1) 5.1.0+1a09bd5a19 (fabric_rendering_v1)
+		Forgified Fabric Rendering Data Attachment (v1) 0.3.49+73761d2e19 (fabric_rendering_data_attachment_v1)
+		Forgified Fabric Rendering Fluids (v1) 3.1.6+a51883b219 (fabric_rendering_fluids_v1)
+		Forgified Fabric Resource Conditions API (v1) 4.3.0+5bdd099819 (fabric_resource_conditions_api_v1)
+		Forgified Fabric Resource Loader (v0) 1.3.1+4ea8954419 (fabric_resource_loader_v0)
+		Forgified Fabric Screen API (v1) 2.0.25+4228281319 (fabric_screen_api_v1)
+		Forgified Fabric Screen Handler API (v1) 1.3.90+8dbc56dd19 (fabric_screen_handler_api_v1)
+		Forgified Fabric Sound API (v1) 1.0.23+10b84f8419 (fabric_sound_api_v1)
+		Forgified Fabric Transfer API (v1) 5.4.3+a25cb45619 (fabric_transfer_api_v1)
+		Forgified Fabric Transitive Access Wideners (v1) 6.2.0+6c854b6f19 (fabric_transitive_access_wideners_v1)
+		Formations 1.0.4 (formations)
+		Formations Nether 1.0.5 (formationsnether)
+		Framework 0.13.11 (framework)
+		Fusion 1.2.12 (fusion)
+		Fzzy Config 0.7.6+1.21+neoforge (fzzy_config)
+		GeckoLib 4 4.8.4 (geckolib)
+		Ghosts 1.3.2 (ghosts)
+		GlitchCore 2.1.0.0 (glitchcore)
+		Goblin Traders 1.11.2 (goblintraders)
+		Gravestone Mod 1.21.1-1.0.35 (gravestone)
+		GroovyModLoader 6.0.2 (gml)
+		Guard Villagers 2.4.7 (guardvillagers)
+		Healing Campfire 6.2 (healingcampfire)
+		Hearth and Harvest 1.1.5 (hearthandharvest)
+		Highlighter 1.1.11 (highlighter)
+		Iceberg 1.3.2 (iceberg)
+		Icon Leading Tooltip 1.0.7 (icon_leading_tooltip)
+		Inventory Profiles Next 2.2.5 (inventoryprofilesnext)
+		Iris 1.8.12-snapshot+mc1.21.1-local (iris)
+		It Takes a Pillage Continuation 1.0.10 (takesapillage)
+		Jade 15.10.5+neoforge (jade)
+		Jewelry (RPG Series) 2.3.2 (jewelry)
+		Just Enough Breeding 1.6.2 (justenoughbreeding)
+		Just Enough Items 19.27.0.336 (jei)
+		Just Enough Professions (JEP) 4.0.4 (justenoughprofessions)
+		Just Enough Resources 1.6.0.17 (jeresources)
+		KleeSlabs 21.1.9 (kleeslabs)
+		Knight Lib 1.3.0 (knightlib)
+		Knight Quest 1.9.0 (knightquest)
+		Kotlin For Forge 5.11.0 (kotlinforforge)
+		KumaAPI 21.0.7 (kuma_api)
+		L_Ender's Cataclysm 1.21.1 3.24 (cataclysm)
+		Lazy Utilities 3.3+1.21.1 (lazy_utilities)
+		Legendary Tooltips 1.5.5 (legendarytooltips)
+		libIPN 6.6.3 (libipn)
+		lionfishapi 2.6 (lionfishapi)
+		Lithium 0.15.3+mc1.21.1 (lithium)
+		Lithostitched 1.6.1 (lithostitched)
+		Macaw's - Oh the Biomes You'll Go 1.21.1-1.5 (mcwbyg)
+		Macaw's Abnormals 1.21.1-1.5 (mcwabnormals)
+		Macaw's Aurora 1.21.1-1.5 (mcwaurora)
+		Macaw's Biomes O' Plenty 1.21.1-1.5 (mcwbiomesoplenty)
+		Macaw's Bridges 3.1.2 (mcwbridges)
+		Macaw's Bridges Delight 1.0.0 (macaws_bridges_delight)
+		Macaw's Doors 1.1.5 (mcwdoors)
+		Macaw's Fences and Walls 1.2.1 (mcwfences)
+		Macaw's Furniture 3.4.1 (mcwfurnitures)
+		Macaw's Lights and Lamps 1.1.5 (mcwlights)
+		Macaw's Paintings 1.0.5 (mcwpaintings)
+		Macaw's Paths and Pavings 1.1.1 (mcwpaths)
+		Macaw's Quark 1.21.1-1.6 (mcwquark)
+		Macaw's Regions Unexplored 1.21.1-1.5 (mcwregionsunexplored)
+		Macaw's Roofs 2.3.2 (mcwroofs)
+		Macaw's Roofs - BOP 1.21-1.0 (macawsroofsbop)
+		Macaw's Stairs and Balconies 1.0.2 (mcwstairs)
+		Macaw's Trapdoors 1.1.5 (mcwtrpdoors)
+		Macaw's Windows 2.4.2 (mcwwindows)
+		MineColonies 1.1.1285-1.21.1 (minecolonies)
+		Minecraft 1.21.1 (minecraft)
+		Mining Speed Tooltips 1.0.0 (miningspeedtooltips)
+		Modonomicon 1.120.1 (modonomicon)
+		Mouse Tweaks 2.26.1 (mousetweaks)
+		Mowzie's Mobs 1.8.2 (mowziesmobs)
+		Multi-Piston 1.2.58-1.21.1 (multipiston)
+		Mystical Agradditions 8.0.13 (mysticalagradditions)
+		Mystical Agriculture 8.0.24 (mysticalagriculture)
+		NeoForge 21.1.221 (neoforge)
+		NetherPortalFix 21.1.1 (netherportalfix)
+		NotEnoughAnimations 1.11.3 (notenoughanimations)
+		Occultism 1.206.0 (occultism)
+		OctoLib 0.6.1 (octolib)
+		Oh The Biomes We've Gone 2.5.5 (biomeswevegone)
+		Oh The Trees You'll Grow 5.2.1 (ohthetreesyoullgrow)
+		Overpacked 1.1 (overpacked)
+		oωo 0.12.15.5-beta.1+1.21 (owo)
+		Paladins & Priests (RPG Series) 2.7.1 (paladins)
+		Paraglider 21.1.5 (paraglider)
+		Particle Rain 4.0.0-beta.8 (particlerain)
+		Particular 1.1.7 (particular)
+		Patchouli 1.21.1-93-NEOFORGE (patchouli)
+		Paxi 1.21.1-NeoForge-5.1.3 (paxi)
+		Pick Up Notifier 21.1.1 (pickupnotifier)
+		Placebo 9.9.1 (placebo)
+		Player Animator 2.0.4+1.21.1 (playeranimator)
+		PrickleMC 21.1.11 (prickle)
+		Prism 1.0.11 (prism)
+		Pufferfish's Skills 0.17.3 (puffish_skills)
+		Puzzles Lib 21.1.39 (puzzleslib)
+		Quark 4.1-475 (quark)
+		RangedWeaponAPI 2.3.3+1.21.1 (ranged_weapon_api)
+		Rechiseled 1.2.4 (rechiseled)
+		Regions Unexplored 0.6+beta3 (regions_unexplored)
+		Relics 0.10.7.8 (relics)
+		Relics (RPG Series) 1.3.0 (relics_rpgs)
+		Repurposed Structures 7.5.18+1.21.1-neoforge (repurposed_structures)
+		Resourceful Lib 3.0.12 (resourcefullib)
+		Resourcefulconfig 3.0.11 (resourcefulconfig)
+		Ribbits 1.21.1-NeoForge-4.1.6 (ribbits)
+		Rogues & Warriors (RPG Series) 2.7.0 (rogues)
+		Runes 1.2.1+1.21.1 (runes)
+		Searchables 1.0.2 (searchables)
+		ShieldAPI 2.2.0 (shield_api)
+		Shoulder Surfing Reloaded 1.21.1-4.22.1 (shouldersurfing)
+		ShulkerBoxTooltip 5.1.9+1.21.1 (shulkerboxtooltip)
+		Simple Voice Chat 1.21.1-2.6.12 (voicechat)
+		Sinytra Connector 2.0.0-beta.14+1.21.1 (connector)
+		Skill Tree (RPG Series) 1.4.4 (skill_tree_rpgs)
+		SmartBrainLib 1.16.11 (smartbrainlib)
+		Sodium 0.6.13+mc1.21.1 (sodium)
+		Sound Physics Remastered 1.21.1-1.5.1 (sound_physics_remastered)
+		Spawn Animations 1.11.3+mod (spawnanimations)
+		SpectreLib 0.17.2+1.21 (spectrelib)
+		Spell Engine 1.9.9 (spell_engine)
+		Spell Power Attribute 1.4.6+1.21.1 (spell_power)
+		Storage Drawers 13.11.4 (storagedrawers)
+		Structure Pool API 1.2.1+1.21.1 (structure_pool_api)
+		Structurize 1.0.816-1.21.1 (structurize)
+		Subtle Effects 1.14.0 (subtle_effects)
+		SuperMartijn642's Config Library 1.1.8 (supermartijn642configlib)
+		SuperMartijn642's Core Lib 1.1.21 (supermartijn642corelib)
+		Surveyor Map Framework 1.2.1_1.21 (surveyor)
+		Tectonic 3.0.19 (tectonic)
+		TerraBlender 4.1.0.8 (terrablender)
+		TerraFirmaCraft 4.0.19-beta (tfc)
+		The Twilight Forest 4.8.3345 (twilightforest)
+		The Undergarden 0.9.5 (undergarden)
+		Tiny Config 3.1.0 (tiny_config)
+		Tooltip overhaul 1.4.3 (tooltipoverhaul)
+		Towns and Towers 1.13.7 (t_and_t)
+		Towntalk 1.2.0 (towntalk)
+		TRansition 1.0.13 (transition)
+		TrashSlot 21.1.6 (trashslot)
+		Traveler's Titles 1.21.1-NeoForge-5.1.3 (travelerstitles)
+		TRender 1.0.10 (trender)
+		TxniLib 1.0.24 (txnilib)
+		Vein Mining 5.0.0-beta.2+1.21 (veinmining)
+		Villager Names 8.2 (villagernames)
+		Visual Workbench 21.1.1 (visualworkbench)
+		Waystones 21.1.29 (waystones)
+		What Are They Up To 1.21.0-1.2.7 (watut)
+		Wizards (RPG Series) 2.7.1 (wizards)
+		XP Tome 2.4 (xpbook)
+		YetAnotherConfigLib 3.8.2+1.21.1-neoforge (yet_another_config_lib_v3)
+		YUNG's API 1.21.1-NeoForge-5.1.6 (yungsapi)
+		YUNG's Better Caves 1.21.1-NeoForge-3.1.4 (bettercaves)
+		YUNG's Better Desert Temples 1.21.1-NeoForge-4.1.5 (betterdeserttemples)
+		YUNG's Better Dungeons 1.21.1-NeoForge-5.1.4 (betterdungeons)
+		YUNG's Better End Island 1.21.1-NeoForge-3.1.2 (betterendisland)
+		YUNG's Better Jungle Temples 1.21.1-NeoForge-3.1.2 (betterjungletemples)
+		YUNG's Better Mineshafts 1.21.1-NeoForge-5.1.1 (bettermineshafts)
+		YUNG's Better Nether Fortresses 1.21.1-NeoForge-3.1.5 (betterfortresses)
+		YUNG's Better Ocean Monuments 1.21.1-NeoForge-4.1.2 (betteroceanmonuments)
+		YUNG's Better Strongholds 1.21.1-NeoForge-5.1.3 (betterstrongholds)
+		YUNG's Better TFC 0.2.0 (yungsbettertfc)
+		YUNG's Better Witch Huts 1.21.1-NeoForge-4.1.1 (betterwitchhuts)
+		YUNG's Bridges 1.21.1-NeoForge-5.1.1 (yungsbridges)
+		YUNG's Cave Biomes 1.21.1-NeoForge-3.1.1 (yungscavebiomes)
+		YUNG's Extras 1.21.1-NeoForge-5.1.1 (yungsextras)
+		YUNG's Menu Tweaks 1.21.1-NeoForge-2.1.2 (yungsmenutweaks)
+		Zeta 1.1-39 (zeta)]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.ModSorter" timestamp="1774588063305" level="ERROR" thread="main">
+    <log4j:Message><![CDATA[Missing or unsupported mandatory dependencies:
+	Mod ID: 'blockui', Requested by: 'minecolonies', Expected range: '[1.0.199-1.21.1-snapshot,)', Actual version: '[MISSING]'
+	Mod ID: 'biomesoplenty', Requested by: 'mcwbiomesoplenty', Expected range: '[21.1.0.7,)', Actual version: '[MISSING]'
+	Mod ID: 'blockui', Requested by: 'multipiston', Expected range: '[1.0.188-1.21.1-snapshot,)', Actual version: '[MISSING]'
+	Mod ID: 'blockui', Requested by: 'structurize', Expected range: '[1.0.191-1.21.1-snapshot,)', Actual version: '[MISSING]']]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="org.sinytra.connector.service.hacks.ModuleLayerMigrator" timestamp="1774588063466" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Successfully made module authlib transformable]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="org.sinytra.connector.service.hacks.ModuleLayerMigrator" timestamp="1774588063467" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Successfully made module brigadier transformable]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="org.sinytra.connector.ConnectorEarlyLoader" timestamp="1774588063598" level="ERROR" thread="main">
+    <log4j:Message><![CDATA[Skipping early mod setup due to previous error]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="cpw.mods.modlauncher.LaunchServiceHandler" timestamp="1774588063601" level="INFO" thread="main">
+    <log4j:Message><![CDATA[Launching target 'forgeclient' with arguments [--version, neoforge-21.1.221, --gameDir, C:\Users\willi\curseforge\minecraft\Instances\Chronicles_, --assetsDir, C:\Users\willi\curseforge\minecraft\Install\assets, --uuid, 323f946f19f64b67a7bd243e3382edf7, --username, Danoskyx, --assetIndex, 17, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, 2bde37-266d92-105330-9a956f-de2cfa, --xuid, 2535411024320696, --userType, msa, --versionType, release, --width, 1024, --height, 768, --quickPlayPath, C:\Users\willi\curseforge\minecraft\Quickplay\10a58921-94c0-4a11-a133-1dbc477d63d6.json, , , ]]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1774588063705" level="WARN" thread="main">
+    <log4j:Message><![CDATA[Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+  </log4j:Event>
+
+[STDOUT] WARN StatusConsoleListener Error parsing URI C:\Users\willi\curseforge\minecraft\Install\assets\log_configs\client-1.12.xml
+
+[STDOUT] WARN StatusConsoleListener Advanced terminal features are not available in this environment
+
+[STDOUT] [01:07:46] [pool-6-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+
+[STDOUT] [01:07:46] [Datafixer Bootstrap/INFO] [mojang/DataFixerBuilder]: 229 Datafixer optimizations took 582 milliseconds
+
+[STDOUT] [01:07:54] [main/INFO] [minecraft/Main]: Completely ignored arguments: [, , ]
+
+[STDOUT] [01:07:54] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/C:/Users/willi/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23403!/assets/.mcassetsroot' uses unexpected schema
+
+[STDOUT] [01:07:54] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/C:/Users/willi/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23403!/data/.mcassetsroot' uses unexpected schema
+
+[STDOUT] [01:07:54] [Render thread/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+
+[STDOUT] [01:07:54] [Render thread/INFO] [minecraft/Minecraft]: Setting user: Danoskyx
+
+[STDOUT] [01:07:54] [Render thread/INFO] [minecraft/Minecraft]: Backend library: LWJGL version 3.3.3+5
+
+[STDOUT] [01:07:55] [Render thread/FATAL] [ne.ne.fm.ModLoader/CORE]: Error during pre-loading phase: Mod minecolonies requires blockui 1.0.199-1.21.1-snapshot or above
+Currently, blockui is not installed
+
+
+[STDOUT] [01:07:55] [Render thread/FATAL] [ne.ne.fm.ModLoader/CORE]: Error during pre-loading phase: Mod mcwbiomesoplenty requires biomesoplenty 21.1.0.7 or above
+Currently, biomesoplenty is not installed
+
+
+[STDOUT] [01:07:55] [Render thread/FATAL] [ne.ne.fm.ModLoader/CORE]: Error during pre-loading phase: Mod multipiston requires blockui 1.0.188-1.21.1-snapshot or above
+Currently, blockui is not installed
+
+
+[STDOUT] [01:07:55] [Render thread/FATAL] [ne.ne.fm.ModLoader/CORE]: Error during pre-loading phase: Mod structurize requires blockui 1.0.191-1.21.1-snapshot or above
+Currently, blockui is not installed
+
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.sound.SoundEngineLoadEvent to a broken mod state
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterColorHandlersEvent$Block to a broken mod state
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterColorHandlersEvent$Item to a broken mod state
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterMaterialAtlasesEvent to a broken mod state
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterRenderBuffersEvent to a broken mod state
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterParticleProvidersEvent to a broken mod state
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RenderLevelStageEvent$RegisterStageEvent to a broken mod state
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent to a broken mod state
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterSpriteSourceTypesEvent to a broken mod state
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterMenuScreensEvent to a broken mod state
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterClientReloadListenersEvent to a broken mod state
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$RegisterLayerDefinitions to a broken mod state
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$RegisterRenderers to a broken mod state
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterClientTooltipComponentFactoriesEvent to a broken mod state
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterEntitySpectatorShadersEvent to a broken mod state
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterKeyMappingsEvent to a broken mod state
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterRecipeBookCategoriesEvent to a broken mod state
+[01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterGuiLayersEvent to a broken mod state
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterDimensionSpecialEffectsEvent to a broken mod state
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterNamedRenderTypesEvent to a broken mod state
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterColorHandlersEvent$ColorResolvers to a broken mod state
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterItemDecorationsEvent to a broken mod state
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterPresetEditorsEvent to a broken mod state
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.gui.map.RegisterMapDecorationRenderersEvent to a broken mod state
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterDimensionTransitionScreenEvent to a broken mod state
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterJsonAnimationTypesEvent to a broken mod state
+
+[STDOUT] [01:07:55] [Render thread/INFO] [minecraft/ReloadableResourceManager]: Reloading ResourceManager: vanilla
+
+[STDOUT] [01:07:55] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.ModelEvent$RegisterGeometryLoaders to a broken mod state
+
+[STDOUT] [01:07:55] [Worker-Main-5/INFO] [minecraft/UnihexProvider]: Found unifont_all_no_pua-15.1.05.hex, loading
+
+[STDOUT] [01:07:56] [Worker-Main-3/INFO] [minecraft/UnihexProvider]: Found unifont_jp_patch-15.1.05.hex, loading
+
+[STDOUT] [01:07:56] [Worker-Main-4/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.ModelEvent$RegisterAdditional to a broken mod state
+
+[STDOUT] [01:07:57] [Worker-Main-4/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.ModelEvent$ModifyBakingResult to a broken mod state
+
+[STDOUT] [01:07:57] [Render thread/WARN] [minecraft/SoundEngine]: Missing sound for event: minecraft:item.goat_horn.play
+[01:07:57] [Render thread/WARN] [minecraft/SoundEngine]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+
+[STDOUT] [01:07:57] [Render thread/INFO] [mojang/Library]: OpenAL initialized on device OpenAL Soft on Altavoces (Realtek High Definition Audio)
+[01:07:57] [Render thread/INFO] [minecraft/SoundEngine]: Sound engine started
+[01:07:57] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.sound.SoundEngineLoadEvent to a broken mod state
+
+[STDOUT] [01:07:57] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+
+[STDOUT] [01:07:57] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+
+[STDOUT] [01:07:57] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+
+[STDOUT] [01:07:57] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+
+[STDOUT] [01:07:57] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+
+[STDOUT] [01:07:57] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[01:07:57] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[01:07:57] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[01:07:57] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+
+[STDOUT] [01:07:57] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+
+[STDOUT] [01:07:57] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+
+[STDOUT] [01:07:57] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[01:07:57] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[01:07:57] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+[01:07:57] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[01:07:57] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+
+[STDOUT] [01:07:57] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[01:07:57] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+
+[STDOUT] [01:07:57] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.ModelEvent$BakingCompleted to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$AddLayers to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.TextureAtlasStitchedEvent to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/WARN] [minecraft/ShaderInstance]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [ne.ne.fm.ModLoader/]: Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterShadersEvent to a broken mod state
+
+[STDOUT] [01:07:58] [Render thread/ERROR] [minecraft/CrashReport]: Negative index in crash report handler (0/28)
+
+[STDOUT] [01:07:58] [Render thread/FATAL] [ne.ne.ne.cl.lo.ClientModLoader/]: Crash report saved to C:\Users\willi\curseforge\minecraft\Instances\Chronicles_\crash-reports\crash-2026-03-27_01.07.58-fml.txt
+
+[STDOUT] ---- Minecraft Crash Report ----
+// I bet Cylons wouldn't have this problem.
+
+Time: 2026-03-27 01:07:58
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Mod loading issue for: minecolonies --
+Details:
+	Mod file: /C:/Users/willi/curseforge/minecraft/Instances/Chronicles_/mods/minecolonies-1.1.1285-1.21.1.jar
+	Failure message: Mod minecolonies requires blockui 1.0.199-1.21.1-snapshot or above
+		Currently, blockui is not installed
+		
+	Mod version: 1.1.1285-1.21.1
+	Mod issues URL: https://github.com/ldtteam/minecolonies/issues/new/choose
+	Exception message: <No associated exception found>
+
+-- Mod loading issue for: mcwbiomesoplenty --
+Details:
+	Mod file: /C:/Users/willi/curseforge/minecraft/Instances/Chronicles_/mods/mcwbiomesoplenty-neoforge-1.21.1-1.5.jar
+	Failure message: Mod mcwbiomesoplenty requires biomesoplenty 21.1.0.7 or above
+		Currently, biomesoplenty is not installed
+		
+	Mod version: 1.21.1-1.5
+	Mod issues URL: https://github.com/Samlegamer/Macaw-s-Addons/issues
+	Exception message: <No associated exception found>
+
+-- Mod loading issue for: multipiston --
+Details:
+	Mod file: /C:/Users/willi/curseforge/minecraft/Instances/Chronicles_/mods/multipiston-1.2.58-1.21.1.jar
+	Failure message: Mod multipiston requires blockui 1.0.188-1.21.1-snapshot or above
+		Currently, blockui is not installed
+		
+	Mod version: 1.2.58-1.21.1
+	Mod issues URL: https://github.com/ldtteam/Piston-Unlimited/issues/new/choose
+	Exception message: <No associated exception found>
+
+-- Mod loading issue for: structurize --
+Details:
+	Mod file: /C:/Users/willi/curseforge/minecraft/Instances/Chronicles_/mods/structurize-1.0.816-1.21.1.jar
+	Failure message: Mod structurize requires blockui 1.0.191-1.21.1-snapshot or above
+		Currently, blockui is not installed
+		
+	Mod version: 1.0.816-1.21.1
+	Mod issues URL: https://github.com/ldtteam/structurize/issues/new/choose
+	Exception message: <No associated exception found>
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.10, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 280885952 bytes (267 MiB) / 1233125376 bytes (1176 MiB) up to 10485760000 bytes (10000 MiB)
+	CPUs: 6
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz
+	Identifier: Intel64 Family 6 Model 158 Stepping 10
+	Microarchitecture: Coffee Lake
+	Frequency (GHz): 2.90
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 6
+	Graphics card #0 name: NVIDIA GeForce GTX 1080
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 8192.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.15.8228
+	Memory slot #0 capacity (MiB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 2.40
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 2.40
+	Memory slot #1 type: DDR4
+	Virtual memory max (MiB): 20182.07
+	Virtual memory used (MiB): 17995.21
+	Swap memory total (MiB): 5632.00
+	Swap memory used (MiB): 195.27
+	Space in storage for jna.tmpdir (MiB): available: 104032.60, total: 243398.00
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): available: 104032.60, total: 243398.00
+	Space in storage for io.netty.native.workdir (MiB): available: 104032.60, total: 243398.00
+	Space in storage for java.io.tmpdir (MiB): available: 104032.60, total: 243398.00
+	Space in storage for workdir (MiB): available: 104032.60, total: 243398.00
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx10000m -Xms256m
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeclient
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.42.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.42.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.42.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar connector_loader TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		gml@7.0.3
+		kotlinforforge@5.11.0
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		client-1.21.1-20240808.144430-srg.jar             |Minecraft                     |minecraft                     |1.21.1              |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		neoforge-21.1.221-universal.jar                   |NeoForge                      |neoforge                      |21.1.221            |Manifest: NOSIGNATURE
+
+[STDOUT] [01:08:14] [Render thread/INFO] [minecraft/Minecraft]: Stopping!
+
+[STDOUT] Program Name : 
+MoreInfo Link : 
+
+[STDOUT] Program Name : 
+MoreInfo Link : 
+
+[STDOUT] Program Name : 
+MoreInfo Link : 
+
+[EXIT] code=0, terminatedByApp=false

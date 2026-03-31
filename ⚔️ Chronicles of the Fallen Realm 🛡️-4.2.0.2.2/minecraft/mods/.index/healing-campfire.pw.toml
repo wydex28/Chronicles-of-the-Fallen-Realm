@@ -1,0 +1,21 @@
+filename = 'healingcampfire-1.21.1-6.2.jar'
+name = 'Healing Campfire'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Fabric/Forge/Neo] 1.21.1-6.2 | Healing Campfire'
+
+[download]
+hash = 'b87bbab52ac97738651229a263f2339a8923ae47'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6185736
+project-id = 342623
+
+[[x-prismlauncher-dependencies]]
+addonId = '342584'
+type = 'REQUIRED'
